@@ -9,7 +9,8 @@ It consisted of a simple exploratory data analysis on the Food waste dataset fro
 
 Food and waste dataset csv file downloaded from the FAO website
 
-### Tools
+### Tools used and supporting files
 
-- SQL Server - Data analysis (SQL scripts can be downloaded) [Download here](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/blob/main/SQL%20project/SQL%20scripts.docx)
-- PowerPoint - To present the analysis [Download here](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/blob/main/SQL%20project/SQL%20project%20-%20Food%20waste%20dataset%20analysis.pptx)
+- PowerPoint - To present the analysis performed [Download here](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/blob/main/SQL%20project/SQL%20project%20-%20Food%20waste%20dataset%20analysis.pptx)
+- SQL Server - Data analysis (SQL scripts referenced in the presentation can be downloaded --->) [Download here](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/blob/main/SQL%20project/SQL%20scripts.docx)
+
