@@ -11,5 +11,5 @@ Food and waste dataset csv file downloaded from the FAO website
 
 ### Tools
 
-- SQL Server - Data analysis (SQL scripts can be downloaded) [Download here](SQL project/SQL scripts.docx)
+- SQL Server - Data analysis (SQL scripts can be downloaded) [Download here](SQL%20project/SQL%20scripts.docx)
 - PowerPoint - To present the analysis
