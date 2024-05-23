@@ -16,7 +16,7 @@ A Google Play Store dataset in csv format downloaded from Kaggle
 You can look at my project Python code together with explanatory comments by clicking the button below.
 Final considerations based on the analysis done are available at the end of the notebook.
 
-[Review it here](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/blob/main/GooglePlay-Copy1.ipynb)
+[Review it here](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/blob/main/Python%20project/GooglePlay-Copy1.ipynb)
 (Please wait for ~30 secs as the notebook will load)
 
 - Python libraries used in the notebook: 
