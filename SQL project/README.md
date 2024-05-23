@@ -11,7 +11,7 @@ Food and waste dataset csv file downloaded from the FAO website
 
 ### Tools used and supporting files
 
-- **PowerPoint** - To present the analysis performed [Download here](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/blob/main/SQL%20project/SQL%20project%20-%20Food%20waste%20dataset%20analysis.pptx)
+- **PowerPoint** - To present the analysis performed [Download here](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/blob/main/SQL%20project/SQL%20project%20-%20Food%20waste%20dataset%20analysis%20presentation.pptx)
 (then click on "view raw")
 - **SQL Server** - Data analysis (SQL queries referenced in the presentation can be seen here) [Click here](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/blob/main/SQL%20project/SQL%20scripts.md)
 
