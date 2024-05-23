@@ -12,5 +12,14 @@ A Google Play Store dataset in csv format downloaded from Kaggle
 
 ### Tools used and supporting files
 
-- Jupyter Notebook - This is an online workspace where I can work with Python and its libraries in a notebook style format [Download here](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/blob/main/SQL%20project/SQL%20project%20-%20Food%20waste%20dataset%20analysis.pptx)
-- SQL Server - Data analysis (SQL scripts referenced in the presentation can be downloaded --->) [Download here](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/blob/main/SQL%20project/SQL%20scripts.docx)
+- Jupyter Notebook - This is an online workspace where I can work with Python and its libraries in a notebook style format 
+You can look at my project Python code together with explanatory comments by clicking the button below.
+Final considerations based on the analysis done are available at the end of the notebook.
+
+[Review it here](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/blob/main/GooglePlay-Copy1.ipynb)
+(Please wait for ~30 secs as the notebook will load)
+
+- Python libraries used in the notebook: 
+  - Pandas (for data cleaning and exploratory data analysis)
+  - Matplotlib and Seaborn (for plotting charts)
+
