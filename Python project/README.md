@@ -2,24 +2,23 @@
 
 ### Project overview
 
-I worked on this project for the Data Analysis online Master and it represented my first application of Python with a real-looking dataset.
-I played the part of a developer who wants to launch a new mobile app, but first wants to identify which type of app has more chances of being successful based on the existing apps in the Google Play store.
-As a starting point I cleaned the dataset (changed column file types when required, removed duplicates, excluded data that was not useful etc.), then went through some exploratory data analysis that led me to gather several insights that I should take into account before developing a new app.  
+This project was part of my Data Analysis online Master and marks my first practical application of Python using a real-looking dataset. The goal was to simulate the role of a developer aiming to launch a new mobile app. The objective was to identify the type of app with the highest potential for success by analyzing existing apps on the Google Play Store.
+
+I began by cleaning the dataset, which involved for instance changing column data types, removing duplicates, and excluding irrelevant data. Following this, I performed exploratory data analysis to uncover key insights that would inform the development of a new app. 
 
 ### Data sources
 
-A Google Play Store dataset in csv format downloaded from Kaggle
+The dataset used in this project is the Google Play Store dataset, which was downloaded in CSV format from Kaggle.
 
 ### Tools used and supporting files
 
-- Jupyter Notebook - This is an online workspace where I can work with Python and its libraries in a notebook style format 
-You can look at my project Python code together with explanatory comments by clicking the button below.
-Final considerations based on the analysis done are available at the end of the notebook.
+- Jupyter Notebook - An interactive workspace for working with Python and its libraries in a notebook format 
+My Python code, along with explanatory comments, can be viewed in the Jupyter Notebook. The final considerations based on the analysis are available at the end of the notebook.
 
-[Review it here](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/blob/main/Python%20project/GooglePlay-Copy1.ipynb)
-(Please wait for ~30 secs as the notebook will load)
+[Review the Notebook here](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/blob/main/Python%20project/GooglePlay-Copy1.ipynb)
+(Please allow approximately 30 seconds for the notebook to load)
 
 - Python libraries used in the notebook: 
-  - Pandas (for data cleaning and exploratory data analysis)
-  - Matplotlib and Seaborn (for plotting charts)
+  - Pandas: for data cleaning and exploratory data analysis
+  - Matplotlib and Seaborn: for plotting charts
 
