@@ -15,7 +15,7 @@ The dataset used in this project is the Google Play Store dataset, which was dow
 - Jupyter Notebook - An interactive workspace for working with Python and its libraries in a notebook format 
 My Python code, along with explanatory comments, can be viewed in the Jupyter Notebook. The final considerations based on the analysis are available at the end of the notebook.
 
-[Review the Notebook here](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/blob/main/Python%20project/GooglePlay-Copy1.ipynb)
+[Review the Notebook here](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/blob/main/Python%20project/GooglePlay%20data%20analysis.ipynb)
 (Please allow approximately 30 seconds for the notebook to load)
 
 - Python libraries used in the notebook: 
