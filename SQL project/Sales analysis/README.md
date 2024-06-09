@@ -12,4 +12,4 @@ Dummy database of a company distributed over 5 separate tables. The datase can b
 ### Tools used and supporting files
 
 - **Github Codespaces** - To query against the Sales database and visualize the results
-- The purpose of each query, the codes and the output of the queries can be found [here]()
+- The purpose of each query, the codes and the output of the queries can be found [here](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/blob/main/SQL%20project/Sales%20analysis/SQL%20scripts.md)
