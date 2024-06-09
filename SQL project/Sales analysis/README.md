@@ -7,7 +7,7 @@ It represents a relatively simple exploratory analysis of the data distributed o
 
 ### Data sources
 
-Dummy database of a company distributed over 5 separate tables. The datase can be reviewed [here]
+Dummy database of a company distributed over 5 separate tables. The datase can be reviewed [here](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/blob/main/SQL%20project/Sales%20analysis/Sales%20database.ods)
 
 ### Tools used and supporting files
 
