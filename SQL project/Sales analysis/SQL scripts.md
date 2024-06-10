@@ -137,8 +137,7 @@ HAVING COUNT(DISTINCT Orders.OrderID) = 1;
 
 ### It turns out it's most of the customers - 158 out of 178
 ### So what's our customers repeat rate (i.e. customers that ordered from us at least twice) ?
-We create a CTE (common table expression), i.e. a temporary query used in the context of a larger query
-In this case the CTE is the table of customers that ordered from us more than once
+We create another CTE as a table with customers that ordered from us more than once
 and we join this with the Orders table where we can get the total number of distinct customers that have ordered at least once from us
 ```
 WITH Repeat_customers AS 
