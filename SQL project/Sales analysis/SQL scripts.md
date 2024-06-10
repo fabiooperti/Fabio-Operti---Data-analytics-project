@@ -170,8 +170,7 @@ HAVING COUNT(OrderID) = 0;
 
 It's 822 customers! It turns out the majority of the customers in our database have never eventually ordered from us yet!
 
-### We want to run a marketing campaign to convert some of these customers. We need their contact data. Let's query the customer table
-### and find out whether we have any missing data
+### We want to run a marketing campaign to convert some of these customers. We need their contact data. Let's query the customer table and find out whether we have any missing data
 ```
 SELECT *
 FROM Customer
@@ -195,7 +194,7 @@ WHERE Email IS NOT NULL AND
 ![image](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/assets/170554271/56be4037-8f70-4871-a9fb-400ec6d45c00)
 
 
-### Let's focus on the products - How many unique products have we sold so far and in which quantities?
+### Let's now get some insights on our products - How many unique products have we sold so far and in which quantities?
 ```
 SELECT COUNT(DISTINCT ProductID) AS TotUniqueProducts,
        SUM(Quantity) AS TotQuantitySold
@@ -229,7 +228,19 @@ ORDER BY QuantitySold DESC;
 ```
 ![image](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/assets/170554271/8029fd53-a676-4d8b-95cb-24f82e6b5124)
 
-
+### Can we see which products are being sold frequently together (i.e. within a same order) ?
+```
+SELECT a.ProductID,
+       b.ProductID,
+       COUNT(*) AS N_Purchases
+FROM OrderItem AS a 
+INNER JOIN OrderItem AS b 
+ON a.OrderID = b.OrderID
+AND a.ProductID < b.ProductID
+GROUP BY 1,2
+ORDER BY N_Purchases DESC
+```
+![image](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/assets/170554271/e50c128a-80f5-4a87-b10f-ee759d83aaa7)
 
 
 
