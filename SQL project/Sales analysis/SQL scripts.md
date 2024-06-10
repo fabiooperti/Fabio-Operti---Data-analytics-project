@@ -107,7 +107,7 @@ ORDER BY a.CreationDate DESC
 ![image](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/assets/170554271/3b3dc19c-f0dd-4867-9842-ea0cb726d460)
 
 
-### Who are our top customers? Let's order orders by customer from the largest
+### Who are our top customers? Let's order the orders by customer from the largest
 ```
 SELECT FirstName,
        LastName,
