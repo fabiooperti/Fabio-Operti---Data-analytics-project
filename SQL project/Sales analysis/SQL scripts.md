@@ -18,32 +18,7 @@ ORDER BY CreationDate DESC;
 ```
 ![image](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/assets/170554271/85b5af64-9e8c-41c1-8ee8-1857adfed3ef)
 
-
-
-### We want to run a marketing campaign and we need the data of all our customers. Let's query this table and find out whether we have any missing data
-```
-SELECT *
-FROM Customer
-WHERE FirstName IS NULL OR
-LastName IS NULL OR
-Email IS NULL OR
-Phone IS NULL
-```
-![image](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/assets/170554271/f07eab51-40e7-4d04-ade1-27b14599c6f2)
-
-### We see some customers missing email or phone data, let's exclude these from our campaign list
-```
-SELECT FirstName,
-       LastName,
-       Email,
-       Phone
-FROM Customer
-WHERE Email IS NOT NULL AND
-      Phone IS NOT NULL;
-```
-![image](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/assets/170554271/56be4037-8f70-4871-a9fb-400ec6d45c00)
-
-### Let's dive into the sales - I want to see the sales for each month (n. of orders, quantities sold and amount sold) in chronological order
+### Let's dive into the numbers - I want to see each month orders (n. of orders, quantities sold and amounts) in chronological order
 ```
 SELECT YEAR(a.CreationDate) AS OrderYear,
        MONTHNAME(a.CreationDate) AS OrderMonth,
@@ -58,7 +33,7 @@ ORDER BY OrderYear, MONTH(a.CreationDate)
 ```
 ![image](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/assets/170554271/394023b9-ea58-4934-a244-9c01b93df37a)
 
-### Who are our top customers? Let's order the sales by customer from the largest
+### Who are our top customers? Let's order orders by customer from the largest
 ```
 SELECT FirstName,
        LastName,
@@ -70,7 +45,7 @@ GROUP BY 1,2
 ORDER BY Tot_Revenue DESC;
 ```
 ![image](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/assets/170554271/d1ed5887-1559-4489-b65c-5bda5f198839)
-### There are 178 customers with which we had sales so far
+### There are 178 customers that have ordered from us so far
 
 ### Who are the customers that ordered from us only once?
 ```
@@ -106,7 +81,7 @@ ON Orders.CustomerID = Repeat_customers.Repeat_Cust
 ```
 ![image](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/assets/170554271/be838a1d-f065-4f63-8ae8-d72bf4b66945)
 
-### Can we see all the customers that have never ordered from us, but are in our database? We can still try to convert them maybe...
+### Can we see all the customers that have never ordered from us in our database? We can still try to convert them maybe...
 ```
 SELECT
 FirstName,
@@ -121,6 +96,31 @@ HAVING COUNT(OrderID) = 0;
 ![image](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/assets/170554271/96453ddb-9d31-4ce7-bcaf-560bb554d9ca)
 
 It's 822 customers! It turns out the majority of the customers in our database have never eventually ordered from us yet!
+
+### We want to run a marketing campaign to convert some of these customers. We need their contact data. Let's query the customer table
+### and find out whether we have any missing data
+```
+SELECT *
+FROM Customer
+WHERE FirstName IS NULL OR
+LastName IS NULL OR
+Email IS NULL OR
+Phone IS NULL
+```
+![image](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/assets/170554271/f07eab51-40e7-4d04-ade1-27b14599c6f2)
+
+### We see some customers missing email or phone data, let's exclude these from our campaign list
+```
+SELECT FirstName,
+       LastName,
+       Email,
+       Phone
+FROM Customer
+WHERE Email IS NOT NULL AND
+      Phone IS NOT NULL;
+```
+![image](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/assets/170554271/56be4037-8f70-4871-a9fb-400ec6d45c00)
+
 
 ### Let's focus on the products - How many unique products have we sold so far and in which quantities?
 ```
