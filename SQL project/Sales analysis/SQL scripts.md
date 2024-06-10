@@ -4,18 +4,20 @@
 ### Let's keep track of all the orders that we received, ordered from the last one we received
 ```sql
 SELECT * FROM Orders
-ORDER BY CreationDate DESC
+ORDER BY CreationDate DESC;
 ```
 ![image](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/assets/170554271/6da00181-1de3-4c46-bd9c-c2cf126f4d8c)
 
-### Can we look at this orders data by month?
+### Can we add a month column next to it?
 ```
 SELECT *,
        MONTH(CreationDate) AS Month,
        MONTHNAME(CreationDate) AS MonthName
-FROM Orders;
+FROM Orders
+ORDER BY CreationDate DESC;
 ```
-![image](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/assets/170554271/d60a894d-52bc-4a1b-9520-50e5ca3c016b)
+![image](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/assets/170554271/85b5af64-9e8c-41c1-8ee8-1857adfed3ef)
+
 
 
 ### We want to run a marketing campaign and we need the data of all our customers. Let's query this table and find out whether we have any missing data
