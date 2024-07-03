@@ -38,7 +38,9 @@ An exploratory data analysis of the Food waste dataset through SQL queries
 
 **Sales analysis**
 
+An exploratory data analysis of the sales of an hypotetical company selling vitamins and integrators
 
+[Link to Project]()
 
 # Contact
 
