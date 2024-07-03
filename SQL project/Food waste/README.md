@@ -7,7 +7,7 @@ It represents a relatively simple exploratory analysis of the data, to put into 
 
 ### Data sources
 
-FAO dataset on global food waste. The datase can be downloaded from the FAO website.
+FAO dataset on global food waste from 1965 to 2021. The datase can be downloaded from the FAO website.
 
 ### Tools used and supporting files
 
