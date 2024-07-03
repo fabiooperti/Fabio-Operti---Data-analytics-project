@@ -1,1 +1,15 @@
+# Food waste analysis with FAO dataset
 
+### Project overview
+
+I used the dataset of the Food and Agriculture Organization (FAO) to perform an analysis about food waste.
+It represents a relatively simple exploratory analysis of the data, to put into practice my SQL learning.
+
+### Data sources
+
+FAO dataset on global food waste. The datase can be downloaded from the FAO website.
+
+### Tools used and supporting files
+
+- **PowerPoint** - To present the project and the analysis carried out - you can download the presentation at this link [here]()
+- The purpose of each query, the codes and the output of the queries can be found [here]()
