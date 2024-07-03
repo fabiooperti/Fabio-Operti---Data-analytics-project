@@ -36,6 +36,10 @@ An exploratory data analysis of the Food waste dataset through SQL queries
 
 [Link to Project](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/tree/main/SQL%20project/Food%20waste)
 
+**Sales analysis**
+
+
+
 # Contact
 
 Feel free to reach out to me for any questions or opportunities:
