@@ -2,7 +2,7 @@
 
 I am Fabio Operti, a Controlling professional and a lifelong learner, with a strong commitment to develop my data analysis and visualization skills.
 
-In 2023 I have attended an online Master in Data Analysis in parallel with my work commitments, which helped me develop a good base in skills like 
+In 2023 I have attended an online Master in Data Analysis in parallel with my full-time daily job, which helped me develop a good base in skills like 
 **SQL** (a structured language to query and analyze data from databases), **Python** (one of the most common programming language used in this space) and 
 **Tableau** (a Business Intelligence visualization tool).
 
