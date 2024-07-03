@@ -40,7 +40,7 @@ An exploratory data analysis of the Food waste dataset through SQL queries
 
 An exploratory data analysis of the sales of an hypotetical company selling vitamins and integrators
 
-[Link to Project]()
+[Link to Project](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/tree/main/SQL%20project/Sales%20analysis)
 
 # Contact
 
