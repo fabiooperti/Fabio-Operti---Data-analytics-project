@@ -34,7 +34,7 @@ A data cleaning and exploratory analysis of the App store to support the success
 
 An exploratory data analysis of the Food waste dataset through SQL queries
 
-[Link to Project](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/tree/main/SQL%20project)
+[Link to Project](https://github.com/fabiooperti/Fabio-Operti---Data-analytics-project/tree/main/SQL%20project/Food%20waste)
 
 # Contact
 
